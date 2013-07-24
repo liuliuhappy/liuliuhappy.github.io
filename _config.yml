@@ -1,2 +1,3 @@
 name: 震你一下巧克力研发中心
 pygments: true
+markdown: redcarpet

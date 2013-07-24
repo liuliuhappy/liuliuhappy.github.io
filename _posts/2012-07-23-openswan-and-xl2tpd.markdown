@@ -28,10 +28,10 @@ Openswan 2.6.38 + xl2tpd 1.3.1
 在尝试 Openswan 2.6.39的ipsec verify进行配置验证测试时，遇上错误提示：“TEST INCOMPLETE”，感觉这里应该是某段检测脚本，还是直接看源码吧：master分支 programs/verify/verify.in，原来是开发者计划把ipsec verify的检测脚本从Perl移植到Python，但是某项检测还没开发完……
 
 {% highlight python %}
-# Check if any NAT or MASQUERADE would accidentally mess up our packets
+#Check if any NAT or MASQUERADE would accidentally mess up our packets
 def natcheck():
-printfun("Checking NAT and MASQUERADEing")
-print_result("WARN","TEST INCOMPLETE")
+    printfun("Checking NAT and MASQUERADEing")
+    print_result("WARN","TEST INCOMPLETE")
 
 {% endhighlight %}
 
