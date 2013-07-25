@@ -1,3 +1,7 @@
 name: 震你一下巧克力研发中心
 pygments: true
-markdown: redcarpet
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://liuliu.net
+author: 刘浏
+paginate: 24
