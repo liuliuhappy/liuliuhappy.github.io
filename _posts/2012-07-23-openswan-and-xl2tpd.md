@@ -2,8 +2,14 @@
 layout: post
 title:  Openswan+xl2tpd折腾记
 date: 2012-07-23 18:12:35
-categories: linux
+categories:
+- Programming
+tags:
+- linux 
+- vpn
+- l2tp
 ---
+
 
 花点时间研究下如何科学上网是每个大陆ITer必须的经历，太多聪明人绞尽脑汁投入大量精力制造着各种免费梯子，还有大量年轻人捧着各种免费梯子的使用手册读的如痴如醉。太浪费了，太浪费了，我决定花钱消灾，自建VPS+L2TP VPN，结果是掉进一个更大的坑里，光爬出来就花了5+个小时，最后还仅仅是勉强的解决了问题，但不完美。
 <br>
