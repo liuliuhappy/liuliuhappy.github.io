@@ -1,1 +1,9 @@
+# Mac crap
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+web.config
+
 _site/
