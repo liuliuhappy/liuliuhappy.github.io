@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Openswan+xl2tpdÕÛÌÚ¼Ç
+date: 2012-07-23 18:12:35
 categories: linux
 ---
 
