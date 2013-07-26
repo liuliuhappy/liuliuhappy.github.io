@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>这里是Title</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/sausalito.css">
+        <link href="http://libs.baidu.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">作者名字</a></h1>
+              <a class="extra" href="/">home</a>
+            </div>
+
+            <h2>文章标题</h2>
+<p class="meta">2013-07-25</p>
+
+<div class="post">
+                <h4>困难点2：ipsec verify</h4>
+
+<p>在尝试 Openswan 2.6.39的ipsec verify进行配置验证测试时，遇上错误提示：“TEST INCOMPLETE”，感觉这里应该是某段检测脚本，还是直接看源码吧：master分支 programs/verify/verify.in，原来是开发者计划把ipsec verify的检测脚本从Perl移植到Python，但是某项检测还没开发完……</p>
+
+<pre><code>#Check if any NAT or MASQUERADE would accidentally mess up our packets
+def natcheck():
+printfun("Checking NAT and MASQUERADEing")
+print_result("WARN","TEST INCOMPLETE")
+</code></pre>
+
+<p>是程序开发INCOMPLETE，而不是测试脚本执行未完成。</p>
+</div>
+
+            
+
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  Your Name<br />
+                  What You Are<br />
+                  your@email.com
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/yourusername/">github.com/liuliuhappy</a><br />
+                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
