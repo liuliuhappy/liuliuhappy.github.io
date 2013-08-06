@@ -7,3 +7,6 @@ Desktop.ini
 web.config
 
 _site/
+
+# WebStorm file
+.idea/

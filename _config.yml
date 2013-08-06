@@ -1,7 +1,34 @@
-name: 震你一下巧克力研发中心
-pygments: true
-markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://liuliu.net
-author: 刘浏
-paginate: 24
+title:            震你一下巧克力研制中心
+description:      A jekyll Blog
+url:              http://liuliu.net/
+paginate:         10
+
+pygments:         true
+permalink:        pretty
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+
+# Theme specific settings
+theme:            b
+signoff:          Liu Liu
+facebook_appid:   
+google_analytics: UA-302921-1
+disqus_shortname: liuliuhappy
+
+owner:
+  name:           Liu Liu
+  avatar:         'http://www.gravatar.com/avatar/bb13ec384e01d389a69f6ddce3972e70.png?s=420'
+  bio:            'Software Architect'
+
+links: 
+  - name:         Home
+    url:          /
+  - name:         Categories
+    url:          /categories
+  - name:         RSS
+    url:          /feed.xml
+  - name:         Weibo
+    url:          http://weibo.com/mrliuliu
+  - name:         GitHub
+    url:          http://github.com/liuliuhappy
