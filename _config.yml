@@ -1,5 +1,5 @@
-title:            震你一下巧克力研制中心
-description:      A jekyll Blog
+title:            震你一下巧克力研发中心
+description:      时刻准备着：震你一下
 url:              http://liuliu.net/
 paginate:         10
 
@@ -19,7 +19,7 @@ disqus_shortname: liuliuhappy
 owner:
   name:           Liu Liu
   avatar:         'http://www.gravatar.com/avatar/bb13ec384e01d389a69f6ddce3972e70.png?s=420'
-  bio:            'Software Architect'
+  bio:            '我参与设计、开发美妙的软件产品，我在创业项目中担任软件架构师，现居北京。 \n  I design,code beautiful software,work in a startup company as software architect and live in Beijing. '
 
 links: 
   - name:         Home
@@ -30,5 +30,5 @@ links:
     url:          /feed.xml
   - name:         Weibo
     url:          http://weibo.com/mrliuliu
-  - name:         GitHub
+  - name:         Github
     url:          http://github.com/liuliuhappy
