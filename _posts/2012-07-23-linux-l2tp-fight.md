@@ -3,7 +3,8 @@ layout: post
 title:  Linux L2TP/IPsec Server搏斗记
 date: 2012-07-23 18:12:35
 categories:
-- Programming
+- Ops
+- Tech
 tags:
 - linux 
 - vpn
@@ -12,7 +13,7 @@ tags:
 
 ###前期准备
 
-如果期望轻点鼠标啪啪啪解决问题，必须出门左转去隔壁微软家。
+如果期望能“轻点鼠标啪啪啪”解决问题，必须出门左转去隔壁微软家。
 
 如果期望用某个bash脚本能BIU一下一站式解决L2TP搭建问题……目前还没有找到合适的。
 

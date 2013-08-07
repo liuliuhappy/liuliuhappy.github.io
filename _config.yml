@@ -1,5 +1,5 @@
-title:            震你一下巧克力研发中心
-description:      时刻准备着：震你一下
+title:            震你一下巧克力研发中
+description:      总有一天会震到你
 url:              http://liuliu.net/
 paginate:         10
 
@@ -17,9 +17,9 @@ google_analytics: UA-302921-1
 disqus_shortname: liuliuhappy
 
 owner:
-  name:           Liu Liu
+  name:           刘浏(Liu Liu)
   avatar:         'http://www.gravatar.com/avatar/bb13ec384e01d389a69f6ddce3972e70.png?s=420'
-  bio:            '我参与设计、开发美妙的软件产品，我在创业项目中担任软件架构师，现居北京。 \n  I design,code beautiful software,work in a startup company as software architect and live in Beijing. '
+  bio:            '我参与设计、开发美妙的软件产品，我在互联网创业项目中担任软件架构师，现居北京。   I design,code beautiful software,work in a startup company as software architect and live in Beijing. '
 
 links: 
   - name:         Home
