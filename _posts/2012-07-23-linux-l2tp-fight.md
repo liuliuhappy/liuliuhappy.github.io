@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  Linux L2TP/IPsec Server搏斗记
-date: 2012-07-23 18:12:35
+date: 2012-07-23
 categories:
-- Ops
-- Tech
+- Develop
 tags:
 - linux 
 - vpn
@@ -79,12 +78,5 @@ http://www.securityfocus.com/bid/59838/info
 
 但这个洞在2.6.39中才得以补上，但该版本与xl2tpd 1.3.1有兼容性问题……
 
-###经验4：系统稳定性问题
-
-或许我没能找到xl2tpd与openswan的最佳组合，有时客户端发起VPN拨号时，会触发一个内核空指针错误，然后，BANG，系统爆炸了。XEN发现虚拟机爆炸了赶紧拿出扫帚把碎在一地的资源打扫收回了，然后重启了它。
-好在爆炸的频率并不高，加上这台VPS并非生产系统，于是暂时忍了。
-
-    /var/log/messages
-    kernel: BUG: unable to handle kernel NULL pointer dereference at 0000000000000020
 
 (待续)
